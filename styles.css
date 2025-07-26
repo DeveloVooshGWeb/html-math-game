@@ -1,0 +1,103 @@
+* {
+    color: white;
+    font-family: "Consolas";
+}
+
+button {
+    background-color: rgb(75, 117, 135);
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    transform: translate(30%);
+    text-align: center;
+}
+
+.math-arena {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+}
+
+input {
+    background-color: #143443;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.log-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+}
+
+.scores {
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+}
+
+.scores h2 {
+    font-size: 30px;
+}
+
+.scores p {
+    font-size: 25px;
+}
+
+input:hover {
+    background-color: grey;
+    box-shadow: 0 0 10px yellow, 0 0 20px yellow;
+    transition: .3s;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgb(75, 117, 135), 0 0 20px rgb(75, 117, 135), 0 0 30px rgb(75, 117, 135), 0 0 40px rgb(75, 117, 135);
+    transition: .3s;
+}
+
+div.enable:hover, section.enable:hover, body.enable:hover {
+    background-color: #0000ff11;
+}
+
+p.enable:hover, button.enable:hover, h2.enable:hover, h3.enable:hover, input.enable:hover {
+    background-color: black;
+}
+
+/*Javascript
+function DEBUGENABLE() {
+    EVERYTHING = document.querySelectorAll("*");
+    EVERYTHING.forEach(THING => {
+        THING.classList.add("enable")
+    })
+}
+function DEBUGDISABLE() {
+    EVERYTHING = document.querySelectorAll("*");
+    EVERYTHING.forEach(THING => {
+        THING.classList.remove("enable")
+    })
+}
+*/
+
+/*Javascript Disable Debug
+function DEBUGENABLE() {}
+function DEBUGDISABLE() {}
+*/
+
+/*Rainbow Javascript
+document.querySelector("body").style.animation = "rainbow 500ms alternate infinite";
+        document.querySelector("body").addEventListener("animationend", function() {
+            this.style.animation = "";
+        });
+*/

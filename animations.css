@@ -1,0 +1,19 @@
+@keyframes wrong {
+    20%, 40%, 80% {
+        color: red;
+        transform: translateX(5%);
+    }
+    0%, 30%, 60% {
+        color: red;
+        transform: translateX(-55%);
+    }
+}
+
+@keyframes rainbow {
+    from {
+        background-color: #000000;
+    }
+    to {
+        background-color: #222222;
+    }
+}

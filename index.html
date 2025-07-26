@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <title>Math</title>
+</head>
+<body onload="START_MATH_APP('VALID_HTML_CALLING_FILE')">
+    <section class="app-container">
+        <div class="scores">
+            <div class="player-score">
+            <h2>Score</h2>
+            <p>0</p>
+            </div>
+            <div class="player-chances">
+                <h2>Chances</h2>
+                <p>3</p>
+            </div>
+        </div>
+
+        <h3 class="log-text">Answer The Question</h2>
+
+        <div class="math-arena">
+            <p class="num1">0</p>
+            <p class="operation">+</p>
+            <p class="num2">0</p>
+            <p class="equal">=</p>
+            <input class="answer" type="number" />
+            <div class="buttons">
+                <button class="Enter">Enter</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="ai.js"></script>
+<script src="brain.js"></script>
+</html>
